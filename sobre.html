@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: rgb(3, 37, 77);">
+        <a class="navbar-brand" href="index.html">Artics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="alertas.html">Alertas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="alert alert-primary" role="alert">
+        Novos artigos disponíveis <a href="index.html" class="alert-link">Página inicial</a>
+       </div>
+
+       <div class="alert alert-danger" role="alert">
+        Alertas importantes! <a href="alertas.html" class="alert-link"> Alertas</a>.
+      </div>
+ 
+    <div class="container"> 
+        <div class="row">
+         <div class="col-md-4 mt-4 col-sm-12"> 
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="img/grupo.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Quem somos ?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-4 col-sm-12"> 
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="img/equipes.jpeg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">
+                
+                Nossa missão</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 mt-4 col-sm-12"> 
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/team.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Nosso Time</p>
+            </div>
+          </div>
+        </div>
+
+       
+
+
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
